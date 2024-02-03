@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Manipulating the DOM</h1>
+    <div class="main-div">
+       A sample image: <br>
+       <img src="https://i.pinimg.com/originals/34/9e/2a/349e2a4d065dcc55a417ac6f0528a5cf.jpg" alt="original image">
+    </div>
+    <div class="old-div">
+        This DIV will be removed
+    </div>
+
+<!-- ------------ Steg 3 events.js --------- -->
+
+<input type="text" id="filterInput" placeholder="Search">
+
+<!-- ------------ --------- -->
+
+    <ul class="list">
+        <li>Javascript</li>
+        <li>Python</li>
+        <li>Ruby</li>
+        <li>Java</li>
+        <li>PHP</li>
+
+    </ul>
+    <button>CLICK HERE</button>
+
+<!-- ------------ Steg 2 events.js --------- -->
+
+    <!-- Nu börjar vi skapa en lista med objekt på ett 
+        dynamiskt sätt med hjälp av JavaScript.  -->
+
+        <div>
+            <input type="text" id="itemInput" placeholder="Add item here">
+            <button id="addButton">Add</button>
+            <ul id="dynamicList"></ul>
+        </div>
+
+<!-- ------------ --------- -->
+
+
+
+<script src="/events.js"></script>
+</body>
+</html>
